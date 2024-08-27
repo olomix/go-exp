@@ -15,3 +15,4 @@ jobs:
         with:
           tool: go
           output-file-path: bench.txt
+          auto-push: true
