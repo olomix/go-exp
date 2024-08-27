@@ -7,13 +7,13 @@ import (
 
 func BenchmarkOne(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		time.Sleep(100 * time.Millisecond)
+		time.Sleep(110 * time.Millisecond)
 	}
 }
 
 func BenchmarkTwo(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		time.Sleep(200 * time.Millisecond)
+		time.Sleep(180 * time.Millisecond)
 	}
 }
 
