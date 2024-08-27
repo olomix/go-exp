@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724765862070,
+  "lastUpdate": 1724766195133,
   "repoUrl": "https://github.com/olomix/go-exp",
   "entries": {
     "Benchmark": [
@@ -70,6 +70,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkTwo",
             "value": 180335939,
+            "unit": "ns/op",
+            "extra": "6 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oleg.lomaka@gmail.com",
+            "name": "Oleg Lomaka",
+            "username": "olomix"
+          },
+          "committer": {
+            "email": "oleg.lomaka@gmail.com",
+            "name": "Oleg Lomaka",
+            "username": "olomix"
+          },
+          "distinct": true,
+          "id": "7ae08572fee3965e56f3bbb5aa49dd756d766617",
+          "message": "change performance data",
+          "timestamp": "2024-08-27T09:42:43-04:00",
+          "tree_id": "bf810fa36d90b3adafebf6d3867ff220f735b396",
+          "url": "https://github.com/olomix/go-exp/commit/7ae08572fee3965e56f3bbb5aa49dd756d766617"
+        },
+        "date": 1724766194284,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkOne",
+            "value": 90226347,
+            "unit": "ns/op",
+            "extra": "13 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkTwo",
+            "value": 190340685,
             "unit": "ns/op",
             "extra": "6 times\n4 procs"
           }
