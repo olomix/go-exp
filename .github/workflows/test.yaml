@@ -15,4 +15,5 @@ jobs:
         with:
           tool: go
           output-file-path: bench.txt
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           auto-push: true
